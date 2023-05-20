@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Profile</title>
+  <style>
+    /* Custom Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+    /* Global Styles */
+    body {
+      background-color: #F4EFEA;
+      color: #000000;
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #FDF3F4;
+      padding: 20px;
+    }
+
+    /* Main Styles */
+    main {
+      background-color: #EAE6E4;
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section-container {
+      background-color: #ede2ce;
+      padding: 20px;
+    }
+
+    .recipe-images {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .recipe-images img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .recipe-button {
+      margin-top: 20px;
+    }
+
+    .recipe-button a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #523602;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #FDF3F4;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+<header style="background-color: #F4EFEA; text-align: center;">
+  <div style="display: flex; align-items: center; justify-content: center;">
+    <span style="font-size: 30px; margin-right: 10px;">🧑🏻‍🍳</span>
+    <img src="photo.png" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%;">
+    <span style="font-size: 30px; margin-left: 10px;">📽</span>
+  </div>
+  <h1 style="color: #000000; margin-top: 10px;">Hello c'est Meriem !</h1>
+  <p> Citoyenne du monde mais avec une touche 🌶 </p>
+</header>
+
+<main>
+  <section class="section-container">
+    <h2>Qui suis-je ? 🤔</h2>
+    <p> 📚 Étudiante en M1 Marketing Digital et Innovation à l'IESEG 🎓 </p>
+    <p> 🎥 Chargée de communication de la Maison Philippe Conticini et Jeffrey Cagnes 👨🏻‍🍳 </p>
+  </section>
+
+  <section class="section-container">
+    <h2>Mes passions 😍</h2>
+    <p> La pâtisserie (évidemment 😇) 🍰 </p>
+    <p> Les podcasts 🎧 </p>
+    <p> Les voyages ✈️ </p>
+  </section>
+
+  <section class="section-container">
+    <h2>Voulez-vous des recettes faciles ? 😁 Allez, c'est cadeau !</h2>
+    <p>Cliquez sur la photo pour obtenir la recette en PDF !</p>
+    <div class="recipe-images">
+      <a href="https://cdn.shopify.com/s/files/1/0089/4160/0873/files/paris-brest.pdf?v=1672220216" target="_blank">
+        <img src="paris-brest.png" alt="Paris-Brest">
+      </a>
+      <a href="https://cdn.shopify.com/s/files/1/0089/4160/0873/files/mousse_au_chocolat.pdf?v=1667906567" target="_blank">
+        <img src="mousse-au-chocolat.png" alt="Mousse au chocolat">
+      </a>
+      <a href="https://cdn.shopify.com/s/files/1/0089/4160/0873/files/tiramisu_96dd3d51-bfb8-4979-be9e-93ee2c1fccee.pdf?v=1669808405" target="_blank">
+        <img src="tiramisu.png" alt="Tiramisu">
+      </a>
+    </div>
+    <div class="recipe-button">
+      <a href="https://philippeconticini.fr/pages/lives-philippe-conticini" target="_blank">Cliquez ici pour plus de recettes ! 😉</a>
+    </div>
+  </section>
+</main>
+
+<footer style="background-color: #F4EFEA; text-align: center;">
+  <h2 style="color: #000000;">Mes réseaux sociaux📱</h2>
+  <div>
+    <a href="https://fr.linkedin.com/in/meriem-bouhafa-a376ab1a0?trk=public_profile_browsemap" target="_blank">
+      <img src="linkedin.png" alt="Linkedin" style="width: 30px; height: 30px; margin-right: 5px;">
+    </a>
+    <a href="https://fr-fr.facebook.com/mariem.bouhafa.90" target="_blank">
+      <img src="facebook.png" alt="Facebook" style="width: 30px; height: 30px; margin-right: 5px;">
+    </a>
+    <a href="https://www.instagram.com/meriem_bouhafa/" target="_blank">
+      <img src="instagram.png" alt="Instagram" style="width: 30px; height: 30px; margin-right: 5px;">
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
